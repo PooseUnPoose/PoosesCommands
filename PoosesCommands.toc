@@ -1,0 +1,8 @@
+## Interface: 120000
+## Title: Poose's Commands
+## Notes: It adds a few slash commands for convenience
+## SavedVariables: SimpleHolyPowerDB
+## Author: Poose
+## Version: 1.0
+
+pc.lua
