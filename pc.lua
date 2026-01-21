@@ -8,7 +8,7 @@ local frame = CreateFrame("Frame")
 
 -- Initialize function
 local function Initialize()
-    print("Use /em, or /edit to open Edit Mode\nUse /rl to reload\nUse /cd for Cooldown Manager")
+    print("")
 end
 
 -- Event handler
@@ -47,4 +47,15 @@ SlashCmdList["CD"] = function(msg)
     CooldownViewerSettings:SetShown(not CooldownViewerSettings:IsShown())
 end
 
-
+SLASH_ESC1 = "/esc"
+SlashCmdList["ESC"] = function(msg)
+    print("Commands:\n")
+    print("Edit mode:")
+    print("/em /edit /editmode\n")
+    print(" ")
+    print("Cooldown Manager:")
+    print("/cd /cooldown")
+    print(" ")
+    print("Reload:")
+    print("/rl")
+end

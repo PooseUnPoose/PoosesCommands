@@ -1,7 +1,6 @@
 ## Interface: 120000
-## Title: Poose's Commands
+## Title: Extra Slash Commands
 ## Notes: It adds a few slash commands for convenience
-## SavedVariables: SimpleHolyPowerDB
 ## Author: Poose
 ## Version: 1.0
 
